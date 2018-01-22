@@ -35,7 +35,7 @@ import scrapertools
 ROOT_DIR = config.get_runtime_path()
 
 REMOTE_VERSION_FILE = "https://raw.githubusercontent.com/lollomec/plugin.video.DemonStreamer/master/version.xml"
-REMOTE_FILE = "https://github.com/lollomec/plugin.video.DemonStreamer/releases/download/plugin.video.DemonStreamer-v%s/plugin.video.DemonStreamer-v%s.zip"
+REMOTE_FILE = "https://codeload.github.com/lollomec/plugin.video.DemonStreamer/zip/master"
 
 LOCAL_FILE = os.path.join(ROOT_DIR, config.PLUGIN_NAME + "-")
 
